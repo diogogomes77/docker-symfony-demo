@@ -1,0 +1,6 @@
+[Dolphin]
+SortRole=owner
+Timestamp=2016,10,16,17,53,36
+Version=3
+ViewMode=1
+VisibleRoles=Details_text,Details_size,Details_date,Details_owner,CustomizedDetails

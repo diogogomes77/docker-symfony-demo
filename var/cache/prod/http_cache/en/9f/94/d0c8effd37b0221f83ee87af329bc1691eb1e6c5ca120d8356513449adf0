@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Symfony Demo application</title>
+
+                
+            <link rel="stylesheet" href="/css/app.css">
+                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    </head>
+
+    <body id="blog_index">
+
+                    <header>
+                <div class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="/">
+                                Symfony Demo
+                            </a>
+
+                            <button type="button" class="navbar-toggle"
+                                    data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                <?php echo "<s"; ?>pan class="sr-only">Toggle navigation</span>
+                                <?php echo "<s"; ?>pan class="icon-bar"></span>
+                                <?php echo "<s"; ?>pan class="icon-bar"></span>
+                                <?php echo "<s"; ?>pan class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+
+                                                                    <li>
+                                        <a href="/en/blog/">
+                                            <i class="fa fa-home"></i> Homepage
+                                        </a>
+                                    </li>
+
+                                                                    
+                                
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-globe"></i> <?php echo "<s"; ?>pan class="caret"></span></a>
+                                    <ul class="dropdown-menu locales" role="menu">
+                                                                                    <li class="active"><a href="/en/blog/">English</a></li>
+                                                                                    <li ><a href="/fr/blog/">Français</a></li>
+                                                                                    <li ><a href="/de/blog/">Deutsch</a></li>
+                                                                                    <li ><a href="/es/blog/">Español</a></li>
+                                                                                    <li ><a href="/cs/blog/">Čeština</a></li>
+                                                                                    <li ><a href="/nl/blog/">Nederlands</a></li>
+                                                                                    <li ><a href="/ru/blog/">Русский</a></li>
+                                                                                    <li ><a href="/uk/blog/">Українська</a></li>
+                                                                                    <li ><a href="/ro/blog/">Română</a></li>
+                                                                                    <li ><a href="/pt_BR/blog/">Português (brasil)</a></li>
+                                                                                    <li ><a href="/pl/blog/">Polski</a></li>
+                                                                                    <li ><a href="/it/blog/">Italiano</a></li>
+                                                                                    <li ><a href="/ja/blog/">日本語</a></li>
+                                                                                    <li ><a href="/id/blog/">Bahasa indonesia</a></li>
+                                                                                    <li ><a href="/ca/blog/">Català</a></li>
+                                                                                    <li ><a href="/sl/blog/">Slovenščina</a></li>
+                                                                            </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        
+        <div class="container body-container">
+                            <div class="row">
+                    <div id="main" class="col-sm-9">
+                        
+
+
+                                    <article class="post">
+            <h2>
+                <a href="/en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                </a>
+            </h2>
+
+            <p>Ut suscipit posuere justo at vulputate Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur aliquam euismod dolor non ornare Nulla porta lobortis ligula vel egestas Pellentesque vitae velit ex Mauris dapibus risus quis suscipit vulputate Nunc </p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/eros-diam-egestas-libero-eu-vulputate-risus">
+                    Eros diam egestas libero eu vulputate risus
+                </a>
+            </h2>
+
+            <p>Mauris dapibus risus quis suscipit vulputate In hac habitasse platea dictumst Pellentesque et sapien pulvinar consectetur Ut suscipit posuere justo at vulputate Aliquam sodales odio id eleifend tristique</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/sed-varius-a-risus-eget-aliquam">
+                    Sed varius a risus eget aliquam
+                </a>
+            </h2>
+
+            <p>Pellentesque et sapien pulvinar consectetur Urna nisl sollicitudin id varius orci quam id turpis Mauris dapibus risus quis suscipit vulputate Lorem ipsum dolor sit amet consectetur adipiscing elit Eros diam egestas libero eu vulputate risus Ut eleifend ma</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/ut-eleifend-mauris-et-risus-ultrices-egestas">
+                    Ut eleifend mauris et risus ultrices egestas
+                </a>
+            </h2>
+
+            <p>Eros diam egestas libero eu vulputate risus Mauris dapibus risus quis suscipit vulputate Ut suscipit posuere justo at vulputate Nunc viverra elit ac laoreet suscipit Sed varius a risus eget aliquam Ut eleifend mauris et risus ultrices egestas In hac habit</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/pellentesque-vitae-velit-ex">
+                    Pellentesque vitae velit ex
+                </a>
+            </h2>
+
+            <p>Urna nisl sollicitudin id varius orci quam id turpis Sed varius a risus eget aliquam Curabitur aliquam euismod dolor non ornare Pellentesque et sapien pulvinar consectetur Nulla porta lobortis ligula vel egestas Pellentesque vitae velit ex Lorem ipsum dol</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/in-hac-habitasse-platea-dictumst">
+                    In hac habitasse platea dictumst
+                </a>
+            </h2>
+
+            <p>Morbi tempus commodo mattis Ut suscipit posuere justo at vulputate Curabitur aliquam euismod dolor non ornare In hac habitasse platea dictumst Aliquam sodales odio id eleifend tristique Eros diam egestas libero eu vulputate risus Sed varius a risus eget a</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/nunc-viverra-elit-ac-laoreet-suscipit">
+                    Nunc viverra elit ac laoreet suscipit
+                </a>
+            </h2>
+
+            <p>In hac habitasse platea dictumst Morbi tempus commodo mattis Nunc viverra elit ac laoreet suscipit Eros diam egestas libero eu vulputate risus Ut suscipit posuere justo at vulputate Mauris dapibus risus quis suscipit vulputate Pellentesque et sapien pulvi</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                </a>
+            </h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Pellentesque vitae velit ex Ut suscipit posuere justo at vulputate Mauris dapibus risus quis suscipit vulputate Eros diam egestas libero eu vulputate risus Ut eleifend mauris et risus ultrices egestas</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/pellentesque-et-sapien-pulvinar-consectetur">
+                    Pellentesque et sapien pulvinar consectetur
+                </a>
+            </h2>
+
+            <p>Sed varius a risus eget aliquam Mauris dapibus risus quis suscipit vulputate Curabitur aliquam euismod dolor non ornare Lorem ipsum dolor sit amet consectetur adipiscing elit Eros diam egestas libero eu vulputate risus Pellentesque et sapien pulvinar cons</p>
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/mauris-dapibus-risus-quis-suscipit-vulputate">
+                    Mauris dapibus risus quis suscipit vulputate
+                </a>
+            </h2>
+
+            <p>Sed varius a risus eget aliquam Pellentesque et sapien pulvinar consectetur Nunc viverra elit ac laoreet suscipit Ut suscipit posuere justo at vulputate Eros diam egestas libero eu vulputate risus Urna nisl sollicitudin id varius orci quam id turpis Ut el</p>
+        </article>
+    
+    <div class="navigation text-center">
+        <ul class="pagination"><li class="prev disabled"><?php echo "<s"; ?>pan>&larr; Previous</span></li><li class="active"><?php echo "<s"; ?>pan>1 <?php echo "<s"; ?>pan class="sr-only">(current)</span></span></li><li><a href="/en/blog/page/2">2</a></li><li><a href="/en/blog/page/3">3</a></li><li class="next"><a href="/en/blog/page/2">Next &rarr;</a></li></ul>
+    </div>
+                    </div>
+
+                    <div id="sidebar" class="col-sm-3">
+                                                        <?php echo $this->surrogate->handle($this, '/_fragment?_path=template%3Dblog%252Fabout.html.twig%26sharedAge%3D600%26_locale%3Den%26_format%3Dhtml%26_controller%3DFrameworkBundle%253ATemplate%253Atemplate&_hash=60VRfu9FcsgxEZLdUDhmXNtVtqxvVlyP34cclVl%2BXlI%3D', '', true) ?>
+
+                        
+
+    <div class="section source-code">
+    <p>
+        Click on this button to show the source code of the <?php echo "<s"; ?>trong>Controller</strong> and <?php echo "<s"; ?>trong>template</strong> used to render this page.
+    </p>
+
+    <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#sourceCodeModal">
+      <i class="fa fa-cogs"></i> Show code
+    </button>
+
+    <div class="modal fade" id="sourceCodeModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <?php echo "<s"; ?>pan aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title"><i class="fa fa-code"></i> Source code used to render this page</h4>
+                </div>
+
+                <div class="modal-body">
+                                            <h3>Controller code<?php echo "<s"; ?>mall class="pull-right"><a href="subl://open?url=file:///var/www/docker-symfony/src/AppBundle/Controller/BlogController.php&amp;line=42" title="Click to open this file" class="file_link"><abbr title="/var/www/docker-symfony/src">src</abbr>/AppBundle/Controller/BlogController.php at line 42</a></small></h3>
+                        <pre><code class="php">/**
+ * @Route(&quot;/&quot;, defaults={&quot;page&quot;: 1}, name=&quot;blog_index&quot;)
+ * @Route(&quot;/page/{page}&quot;, requirements={&quot;page&quot;: &quot;[1-9]\d*&quot;}, name=&quot;blog_index_paginated&quot;)
+ * @Method(&quot;GET&quot;)
+ * @Cache(smaxage=&quot;10&quot;)
+ */
+public function indexAction($page)
+{
+    $posts = $this-&gt;getDoctrine()-&gt;getRepository(Post::class)-&gt;findLatest($page);
+
+    return $this-&gt;render(&#039;blog/index.html.twig&#039;, [&#039;posts&#039; =&gt; $posts]);
+}
+</code></pre>
+                    
+                    <h3>Twig template code<?php echo "<s"; ?>mall class="pull-right"><a href="subl://open?url=file:///var/www/docker-symfony/app/Resources/views/blog/index.html.twig&amp;line=1" title="Click to open this file" class="file_link"><abbr title="/var/www/docker-symfony/app">app</abbr>/Resources/views/blog/index.html.twig at line 1</a></small></h3>
+                    <pre><code class="twig">{% extends &#039;base.html.twig&#039; %}
+
+{% block body_id &#039;blog_index&#039; %}
+
+{% block main %}
+    {% for post in posts %}
+        &lt;article class=&quot;post&quot;&gt;
+            &lt;h2&gt;
+                &lt;a href=&quot;{{ path(&#039;blog_post&#039;, { slug: post.slug }) }}&quot;&gt;
+                    {{ post.title }}
+                &lt;/a&gt;
+            &lt;/h2&gt;
+
+            {{ post.summary|md2html }}
+        &lt;/article&gt;
+    {% else %}
+        &lt;div class=&quot;well&quot;&gt;{{ &#039;post.no_posts_found&#039;|trans }}&lt;/div&gt;
+    {% endfor %}
+
+    &lt;div class=&quot;navigation text-center&quot;&gt;
+        {{ pagerfanta(posts, &#039;twitter_bootstrap3_translated&#039;, { routeName: &#039;blog_index_paginated&#039; }) }}
+    &lt;/div&gt;
+{% endblock %}
+
+{% block sidebar %}
+    {{ parent() }}
+
+    {{ show_source_code(_self) }}
+{% endblock %}
+</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+                    </div>
+
+                    <footer>
+                <div class="container">
+                    <div class="row">
+                        <div id="footer-copyright" class="col-md-6">
+                            <p>&copy; 2016 - The Symfony Project</p>
+                            <p>MIT License</p>
+                        </div>
+                        <div id="footer-resources" class="col-md-6">
+                            <p>
+                                <a href="https://twitter.com/symfony"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/SensioLabs"><i class="fa fa-facebook"></i></a>
+                                <a href="https://symfony.com/blog/"><i class="fa fa-rss"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+                
+            <?php echo "<s"; ?>cript src="/js/app.js"></script>
+        
+                <!-- Page rendered on October 16, 2016 at 5:02:25 PM GMT -->
+    </body>
+</html>

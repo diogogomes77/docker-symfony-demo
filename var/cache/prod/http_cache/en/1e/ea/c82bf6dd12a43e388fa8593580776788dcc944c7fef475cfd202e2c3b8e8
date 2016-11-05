@@ -1,0 +1,12 @@
+<div class="section about">
+    <div class="well well-lg">
+        <p>
+            This is a <strong>demo application</strong> built in the Symfony Framework to illustrate the recommended way of developing Symfony applications.
+        </p>
+        <p>
+            For more information, check out the <a href="http://symfony.com/doc">Symfony doc</a>.
+        </p>
+    </div>
+</div>
+
+<!-- Fragment rendered on October 16, 2016 at 5:02:20 PM GMT -->
